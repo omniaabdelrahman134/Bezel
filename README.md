@@ -23,5 +23,4 @@ Bezel is a modern **responsive landing page** built with **Bootstrap**, **Font A
 
 ---
 
-   ```bash
-   git clone https://github.com/yourusername/bezel.git
+   
