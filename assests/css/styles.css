@@ -1,0 +1,324 @@
+.dot {
+  color: var(--mode-color);
+}
+nav .nav-link{
+    color: var(--main-title);
+}
+
+nav .nav-link:hover ,.navbar-nav .nav-link.active{
+    color: var(--main-text);
+}
+/* <!-- =============================== Hero section ========================== --> */
+
+#hero .bg1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4)),
+    url(../Images/bg-image-28.jpg) no-repeat center/cover;
+}
+
+#hero .bg2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4)),
+    url(../Images/bg-image-29.jpg) no-repeat center/cover;
+}
+
+#hero .hero-btn {
+  height: 50px;
+  width: 120px;
+  /* font-family: var(--head-font); */
+  color: white;
+}
+
+#hero .hero-btn:hover{
+    color: black;
+}
+
+.control-next,
+.control-prev {
+  height: fit-content;
+  left: 0%;
+  border: 2px solid white;
+  color: white;
+  width: fit-content;
+  padding: 20px;
+  margin-block: auto;
+  transition: all 0.3s ease-in;
+}
+.control-next:hover,
+.control-prev:hover {
+  background-color: #fff;
+  color: var(--main-title);
+}
+.control-prev {
+  top: 18%;
+  transform: translateY(-18%);
+}
+
+/* <!-- =============================== About section ========================== --> */
+#about .about-btn {
+  border-color: var(--main-text);
+  border-radius: 0%;
+  font-size: 11px;
+  transition: all 0.3s ease-in;
+}
+
+#about .about-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.type::after {
+  content: '';
+  color: var(--mode-color);
+  font-weight: 500;
+  animation: typing 7s infinite;
+}
+
+@keyframes typing {
+  /* word 1: apps */
+  0% {
+    content: '|';
+  }
+  2% {
+    content: 'a|';
+  }
+  4% {
+    content: 'ap|';
+  }
+  6% {
+    content: 'app|';
+  }
+  8% {
+    content: 'apps|';
+  }
+  10% {
+    content: 'app|';
+  }
+  12% {
+    content: 'ap|';
+  }
+  14% {
+    content: 'a|';
+  }
+  16% {
+    content: '|';
+  }
+
+  /* word 2: softwares */
+  20% {
+    content: 's|';
+  }
+  22% {
+    content: 'so|';
+  }
+  24% {
+    content: 'sof|';
+  }
+  26% {
+    content: 'soft|';
+  }
+  28% {
+    content: 'softw|';
+  }
+  30% {
+    content: 'softwa|';
+  }
+  32% {
+    content: 'softwar|';
+  }
+  34% {
+    content: 'software|';
+  }
+  36% {
+    content: 'softwares|';
+  }
+  38% {
+    content: 'software|';
+  }
+  40% {
+    content: 'softwar|';
+  }
+  42% {
+    content: 'softwa|';
+  }
+  44% {
+    content: 'softw|';
+  }
+  46% {
+    content: 'soft|';
+  }
+  48% {
+    content: 'sof|';
+  }
+  50% {
+    content: 'so|';
+  }
+  52% {
+    content: 's|';
+  }
+  54% {
+    content: '|';
+  }
+
+  /* word 3: websites */
+  60% {
+    content: 'w|';
+  }
+  62% {
+    content: 'we|';
+  }
+  64% {
+    content: 'web|';
+  }
+  66% {
+    content: 'webs|';
+  }
+  68% {
+    content: 'websi|';
+  }
+  70% {
+    content: 'websit|';
+  }
+  72% {
+    content: 'website|';
+  }
+  74% {
+    content: 'websites|';
+  }
+  76% {
+    content: 'website|';
+  }
+  78% {
+    content: 'websit|';
+  }
+  80% {
+    content: 'websi|';
+  }
+  82% {
+    content: 'webs|';
+  }
+  84% {
+    content: 'web|';
+  }
+  86% {
+    content: 'we|';
+  }
+  88% {
+    content: 'w|';
+  }
+  90% {
+    content: '|';
+  }
+
+  /* loop back */
+  100% {
+    content: '|';
+  }
+}
+
+/* <!-- =============================== Team section ========================== --> */
+
+.team-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  background-color: var(--mode-color);
+  color: white;
+  transition: all 0.4s ease;
+  transform: translateY(20px);
+}
+
+.image-wrapper:hover .team-overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.team-overlay .team-social {
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 0;
+}
+
+/* <!-- =============================== Team section ========================== --> */
+#services {
+  background: linear-gradient(rgba(0, 0, 0, 0.3)), var(--main-text);
+}
+
+.h2-edit {
+  color: white;
+}
+
+/* <!-- =============================== Work section ========================== --> */
+
+.card-body h2::after {
+  content: ' ';
+  width: 200px;
+  height: 1px;
+  background-color: #eee;
+  position: absolute;
+  top: 110%;
+  left: -25px;
+}
+
+.price-best .best {
+  font-size: smaller;
+}
+
+.price-best .price :is(h2, span) {
+  color: var(--mode-color);
+}
+
+.best-quality {
+  height: 105%;
+}
+
+/* <!-- =============================== Testimonial section ========================== --> */
+
+.control-c {
+  color: var(--main-title);
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.control-c:hover {
+  color: var(--mode-color);
+}
+
+#test .circle {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: var(--mode-color);
+}
+
+/* <!-- =============================== Contact section ========================== --> */
+.frame {
+  width: 100%;
+}
+
+.form-control {
+  height: 50px;
+  width: 400px;
+  font-size: 15px;
+  line-height: 50px;
+  border: 2px solid #eee;
+  border-radius: 0;
+  box-shadow: none;
+  transition: all 0.3s ease;
+}
+
+.form-group {
+  margin-bottom: 25px;
+  color: var(--main-title);
+}
+
+.form-group button {
+  font-size: smaller;
+  padding: 4%;
+  color: linear-gradient(rgba(0, 0, 0, 0.5)), var(--mode-color);
+}

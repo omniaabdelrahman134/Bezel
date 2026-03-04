@@ -1,0 +1,59 @@
+:root {
+  --head-font: 'Poppins', sans-serif;
+  --text-font: 'Source Sans 3', sans-serif;
+  --main-title: #1f1f1f;
+  --main-text: #787878;
+  --mode-color: #00c3da;
+}
+
+body {
+  font-family: var(--text-font);
+  color: var(--main-text);
+  max-width: 100%;
+}
+#hero :is(h1, h2, h3, h4, h5, h6) {
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.btn {
+  font-family: var(--head-font);
+  color: var(--main-title);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+ul{
+  list-style: none;
+}
+
+.heading-sec:before {
+  content: attr(data-letter);
+  z-index: 1;
+  font-size: 2em;
+  opacity: 0.06;
+  font-weight: 700;
+  position: absolute;
+  top: -0.5em;
+  text-align: center;
+  text-transform: uppercase;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.heading-sec2:before{
+  text-align: start;
+}
+
+
+.pd-sec {
+  padding: 7% 0%;
+}

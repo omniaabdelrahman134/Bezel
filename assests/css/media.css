@@ -1,0 +1,152 @@
+@media (max-width: 576px) {
+  .control-next,
+  .control-prev {
+    visibility: hidden;
+  }
+}
+@media (max-width: 576px) {
+  .sev-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 5%;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: fit-content;
+    margin: auto;
+  }
+}
+
+
+
+@media (max-width: 576px) {
+  .testimonial-img {
+    width: 25%;
+    left: 37%;
+  }
+
+  .control-c {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 991px) {
+  .testimonial-img {
+    left: 46%;
+  }
+}
+
+@media (max-width: 991px) {
+  .frame {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .cont {
+    align-items: center;
+  }
+}
+
+/* =============================== Contact Section Responsive ========================== */
+
+/* Make iframe fully responsive */
+
+
+/* Make form inputs full width */
+#contact-form .form-control {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+/* Remove extra spacing on small screens */
+@media (max-width: 768px) {
+  #contact .cont {
+    margin: 70px !important;
+    margin-top: 30px !important;
+    align-items: center;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  #contact .form-group button {
+    width: 100%;
+  }
+}
+
+/* Optional: small padding for extra small devices */
+@media (max-width: 576px) {
+  #contact .cont {
+    padding: 0 10px;
+  }
+}
+
+/* =============================== Team Section ========================== */
+
+/* Make team images responsive */
+.image-team {
+  width: 100%;         /* image takes full width of column */
+  height: auto;        /* maintain aspect ratio */
+  display: block;
+  margin: 0 auto;      /* center on small screens */
+  object-fit: cover;   /* crop nicely without stretching */
+  border-radius: 5px;  /* optional: round corners slightly */
+}
+
+/* Image wrapper spacing */
+.image-wrapper {
+  margin-bottom: 30px; /* space between rows */
+  overflow: hidden;    /* keep overlay contained */
+  position: relative;
+}
+
+/* Overlay adjustments */
+/* .team-overlay {
+  transition: all 0.4s ease;
+  transform: translateY(20px);
+  opacity: 0;
+}
+
+.image-wrapper:hover .team-overlay {
+  transform: translateY(0);
+  opacity: 1;
+} */
+
+/* Make social icons smaller on mobile */
+.team-social i {
+  font-size: 16px;
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 768px) {
+  .col-sm-6, .col-md-3 {
+    flex: 0 0 100%;  /* each card full width */
+    max-width: 100%;
+  }
+
+  .image-wrapper {
+    margin: 20px;
+  }
+
+  .team-overlay .team-social {
+    padding: 10px;
+  }
+
+  .team-overlay p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .col-md-3 {
+    flex: 0 0 50%;  /* two cards per row on tablets */
+    max-width: 50%;
+  }
+}
