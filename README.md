@@ -22,10 +22,6 @@ Bezel is a modern **responsive landing page** built with **Bootstrap**, **Font A
 - **Animate.css**  
 
 ---
-## Preview
-![Bezel Preview](./assests/Images/screenshot.png)  
 
-## How to Use
-1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/bezel.git
