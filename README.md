@@ -4,6 +4,8 @@
 
 Bezel is a modern **responsive landing page** built with **Bootstrap**, **Font Awesome**, and **Animate.css**. It’s designed to showcase a company’s services, team, pricing, and testimonials with smooth animations and a professional layout.  
 
+<img width="1901" height="933" alt="image" src="https://github.com/user-attachments/assets/3e9ba22f-63d0-4132-a7a6-2adebfaed050" />
+
 ---
 ## Features
 - Fully **responsive** for desktop, tablet, and mobile  
